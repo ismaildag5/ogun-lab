@@ -1,0 +1,32 @@
+test_admin_cross_origin_rejected (test_http.HttpTests.test_admin_cross_origin_rejected) ... ok
+test_admin_update_and_conflict (test_http.HttpTests.test_admin_update_and_conflict) ... ok
+test_catalogue_requires_pairing_or_local_browser (test_http.HttpTests.test_catalogue_requires_pairing_or_local_browser) ... ok
+test_pair_authenticate_and_watch (test_http.HttpTests.test_pair_authenticate_and_watch) ... ok
+test_pair_rate_limit (test_http.HttpTests.test_pair_rate_limit) ... ok
+test_any_drop_queues_but_same_and_increase_do_not (test_store.StoreTests.test_any_drop_queues_but_same_and_increase_do_not) ... ok
+test_big_threshold_and_price_spike (test_store.StoreTests.test_big_threshold_and_price_spike) ... ok
+test_expired_pair_code_rejected (test_store.StoreTests.test_expired_pair_code_rejected) ... ok
+test_expiry_does_not_send_late_discount (test_store.StoreTests.test_expiry_does_not_send_late_discount) ... ok
+test_foreign_keys_and_integrity (test_store.StoreTests.test_foreign_keys_and_integrity) ... ok
+test_inflight_lease_recovered_after_restart (test_store.StoreTests.test_inflight_lease_recovered_after_restart) ... ok
+test_invalid_money_never_writes (test_store.StoreTests.test_invalid_money_never_writes) ... ok
+test_missing_device_token_waits (test_store.StoreTests.test_missing_device_token_waits) ... ok
+test_new_price_supersedes_pending_alert (test_store.StoreTests.test_new_price_supersedes_pending_alert) ... ok
+test_new_watch_below_target_does_not_fake_a_drop (test_store.StoreTests.test_new_watch_below_target_does_not_fake_a_drop) ... ok
+test_pair_one_time_and_secret_is_hashed (test_store.StoreTests.test_pair_one_time_and_secret_is_hashed) ... ok
+test_preview_does_not_send_to_a_phone (test_store.StoreTests.test_preview_does_not_send_to_a_phone) ... ok
+test_price_history_is_append_only (test_store.StoreTests.test_price_history_is_append_only) ... ok
+test_provider_acceptance_and_device_receipt_are_different (test_store.StoreTests.test_provider_acceptance_and_device_receipt_are_different) ... ok
+test_queue_survives_restart_and_fcm_missing_is_not_success (test_store.StoreTests.test_queue_survives_restart_and_fcm_missing_is_not_success) ... ok
+test_remove_watch_cancels_unsent_alert (test_store.StoreTests.test_remove_watch_cancels_unsent_alert) ... ok
+test_repeat_request_does_not_duplicate_event_or_alert (test_store.StoreTests.test_repeat_request_does_not_duplicate_event_or_alert) ... ok
+test_seed_exact_count_and_idempotent (test_store.StoreTests.test_seed_exact_count_and_idempotent) ... ok
+test_stale_version_conflict_does_not_write (test_store.StoreTests.test_stale_version_conflict_does_not_write) ... ok
+test_target_only_on_crossing (test_store.StoreTests.test_target_only_on_crossing) ... ok
+test_transient_failure_retries_same_notification (test_store.StoreTests.test_transient_failure_retries_same_notification) ... ok
+test_watch_is_per_device_and_branch (test_store.StoreTests.test_watch_is_per_device_and_branch) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 3.341s
+
+OK
